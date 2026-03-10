@@ -1,0 +1,14 @@
+{
+  "name": "OverPy Environment",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "files.associations": {
+          "*.opy": "overpy"
+        }
+      },
+      "extensions": ["Zezombye.overpy"]
+    }
+  }
+}
